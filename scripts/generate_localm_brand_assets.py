@@ -148,7 +148,7 @@ SVG_TEMPLATES: dict[str, str] = {
     "logo-horizontal-color.svg": _svg(
         "0 0 980 220",
         f'<g transform="translate(20,10)"><use {_USE.format("logo-mark")}/></g>'
-        '<text x="250" y="130">'
+        '<text x="250" y="138">'
         '<tspan class="tech-text" font-size="96" font-weight="700" fill="#FFFFFF">localm</tspan>'
         '<tspan class="sans-text" font-size="40" font-weight="700" fill="#4FACFE" dy="-44" dx="3">™</tspan>'
         '<tspan class="sans-text" font-size="96" font-weight="300" fill="#94A3B8" dy="44" dx="24">TUTS</tspan>'
@@ -157,7 +157,7 @@ SVG_TEMPLATES: dict[str, str] = {
     "logo-horizontal-light.svg": _svg(
         "0 0 980 220",
         f'<g transform="translate(20,10)"><use {_USE.format("logo-mark-white")}/></g>'
-        '<text x="250" y="130">'
+        '<text x="250" y="138">'
         '<tspan class="tech-text" font-size="96" font-weight="700" fill="#FFFFFF">localm</tspan>'
         '<tspan class="sans-text" font-size="40" font-weight="700" fill="#FFFFFF" dy="-44" dx="3">™</tspan>'
         '<tspan class="sans-text" font-size="96" font-weight="300" fill="#94A3B8" dy="44" dx="24">TUTS</tspan>'
@@ -166,7 +166,7 @@ SVG_TEMPLATES: dict[str, str] = {
     "logo-horizontal-dark.svg": _svg(
         "0 0 980 220",
         f'<g transform="translate(20,10)"><use {_USE.format("logo-mark-dark")}/></g>'
-        '<text x="250" y="130">'
+        '<text x="250" y="138">'
         '<tspan class="tech-text" font-size="96" font-weight="700" fill="#0F172A">localm</tspan>'
         '<tspan class="sans-text" font-size="40" font-weight="700" fill="#0F172A" dy="-44" dx="3">™</tspan>'
         '<tspan class="sans-text" font-size="96" font-weight="300" fill="#475569" dy="44" dx="24">TUTS</tspan>'
