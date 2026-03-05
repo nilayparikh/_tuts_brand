@@ -46,56 +46,56 @@ because social-card images do not support transparency.
 
 Consumers choose the appropriate variant for their surface:
 
-| Surface           | Variant to use     |
-| ----------------- | ------------------ |
-| Dark background   | `*-color` or `*-light` (white/gradient strokes are visible) |
-| Light background  | `*-dark` (dark strokes are visible)                         |
-| Social card / OG  | `og-image-template` (solid background)                      |
+| Surface          | Variant to use                                              |
+| ---------------- | ----------------------------------------------------------- |
+| Dark background  | `*-color` or `*-light` (white/gradient strokes are visible) |
+| Light background | `*-dark` (dark strokes are visible)                         |
+| Social card / OG | `og-image-template` (solid background)                      |
 
 ## Export Matrix
 
 ### SVG (14 files)
 
-| File                         | Size      | Background  | Notes                        |
-| ---------------------------- | --------- | ----------- | ---------------------------- |
-| `icon-mark-gradient.svg`     | 200×200   | transparent | Primary gradient mark        |
-| `icon-mark-white.svg`        | 200×200   | transparent | Monochrome white mark        |
-| `icon-mark-dark.svg`         | 200×200   | transparent | Monochrome dark mark         |
-| `favicon-full.svg`           | 200×200   | transparent | Mark + "localm" text         |
-| `logo-horizontal-color.svg`  | 980×220   | transparent | Gradient mark + colored text |
-| `logo-horizontal-light.svg`  | 980×220   | transparent | White mark + white text      |
-| `logo-horizontal-dark.svg`   | 980×220   | transparent | Dark mark + dark text        |
-| `logo-stacked-color.svg`     | 360×440   | transparent | Gradient mark, text below    |
-| `logo-stacked-light.svg`     | 360×440   | transparent | White mark, text below       |
-| `logo-stacked-dark.svg`      | 360×440   | transparent | Dark mark, text below        |
-| `og-image-template.svg`      | 1200×630  | solid dark  | Social sharing card          |
-| `brand-board.svg`            | 1400×1850 | solid dark  | Master presentation board    |
+| File                        | Size      | Background  | Notes                        |
+| --------------------------- | --------- | ----------- | ---------------------------- |
+| `icon-mark-gradient.svg`    | 200×200   | transparent | Primary gradient mark        |
+| `icon-mark-white.svg`       | 200×200   | transparent | Monochrome white mark        |
+| `icon-mark-dark.svg`        | 200×200   | transparent | Monochrome dark mark         |
+| `favicon-full.svg`          | 200×200   | transparent | Mark + "localm" text         |
+| `logo-horizontal-color.svg` | 980×220   | transparent | Gradient mark + colored text |
+| `logo-horizontal-light.svg` | 980×220   | transparent | White mark + white text      |
+| `logo-horizontal-dark.svg`  | 980×220   | transparent | Dark mark + dark text        |
+| `logo-stacked-color.svg`    | 360×440   | transparent | Gradient mark, text below    |
+| `logo-stacked-light.svg`    | 360×440   | transparent | White mark, text below       |
+| `logo-stacked-dark.svg`     | 360×440   | transparent | Dark mark, text below        |
+| `og-image-template.svg`     | 1200×630  | solid dark  | Social sharing card          |
+| `brand-board.svg`           | 1400×1850 | solid dark  | Master presentation board    |
 
 ### PNG (transparent, high-density rasterised)
 
-| Source SVG                   | Sizes (px)                                       |
-| ---------------------------- | ------------------------------------------------ |
-| `icon-mark-gradient`         | 32, 64, 128, 180, 192, 256, 512, 1024           |
-| `icon-mark-white`            | 64, 128, 256, 512                                |
-| `icon-mark-dark`             | 64, 128, 256, 512                                |
-| `favicon-full`               | 16, 32, 48, 64                                   |
-| `logo-horizontal-color`      | 490×110, 980×220, 1960×440                       |
-| `logo-horizontal-light`      | 490×110, 980×220, 1960×440                       |
-| `logo-horizontal-dark`       | 490×110, 980×220, 1960×440                       |
-| `logo-stacked-color`         | 360×440, 720×880, 1080×1320                      |
-| `logo-stacked-light`         | 360×440, 720×880                                 |
-| `logo-stacked-dark`          | 360×440, 720×880                                 |
-| `og-image-template`          | 1200×630                                         |
+| Source SVG              | Sizes (px)                            |
+| ----------------------- | ------------------------------------- |
+| `icon-mark-gradient`    | 32, 64, 128, 180, 192, 256, 512, 1024 |
+| `icon-mark-white`       | 64, 128, 256, 512                     |
+| `icon-mark-dark`        | 64, 128, 256, 512                     |
+| `favicon-full`          | 16, 32, 48, 64                        |
+| `logo-horizontal-color` | 490×110, 980×220, 1960×440            |
+| `logo-horizontal-light` | 490×110, 980×220, 1960×440            |
+| `logo-horizontal-dark`  | 490×110, 980×220, 1960×440            |
+| `logo-stacked-color`    | 360×440, 720×880, 1080×1320           |
+| `logo-stacked-light`    | 360×440, 720×880                      |
+| `logo-stacked-dark`     | 360×440, 720×880                      |
+| `og-image-template`     | 1200×630                              |
 
 ### Standard web icon mappings
 
-| Web use               | Canonical file                    |
-| ---------------------- | --------------------------------- |
-| `favicon.ico`          | (copy from `icon-mark-gradient-32.png` or create ICO externally) |
-| Apple touch icon       | `icon-mark-gradient-180.png`      |
-| Android Chrome 192     | `icon-mark-gradient-192.png`      |
-| Android Chrome 512     | `icon-mark-gradient-512.png`      |
-| OG image               | `og-image-template-1200x630.png`  |
+| Web use            | Canonical file                                                   |
+| ------------------ | ---------------------------------------------------------------- |
+| `favicon.ico`      | (copy from `icon-mark-gradient-32.png` or create ICO externally) |
+| Apple touch icon   | `icon-mark-gradient-180.png`                                     |
+| Android Chrome 192 | `icon-mark-gradient-192.png`                                     |
+| Android Chrome 512 | `icon-mark-gradient-512.png`                                     |
+| OG image           | `og-image-template-1200x630.png`                                 |
 
 ## Do / Don’t
 
@@ -149,8 +149,8 @@ foreach ($f in $needed) {
 
 These are **not** generated by `_brand` — they are site-specific assets:
 
-| File                 | Purpose            |
-| -------------------- | ------------------ |
-| `nilay_parikh.jpeg`  | Instructor photo   |
-| `profile-pic-512.png`| Profile picture    |
-| `logo-canvas.svg`    | Slide deck canvas  |
+| File                  | Purpose           |
+| --------------------- | ----------------- |
+| `nilay_parikh.jpeg`   | Instructor photo  |
+| `profile-pic-512.png` | Profile picture   |
+| `logo-canvas.svg`     | Slide deck canvas |
