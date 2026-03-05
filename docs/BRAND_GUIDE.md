@@ -32,11 +32,24 @@ This guide defines the canonical LocalM™ Tuts identity system.
 
 ## Typography
 
-- Wordmark: Share Tech Mono
-- Supporting type: Outfit
-- Fallbacks:
+- Wordmark: Share Tech Mono (Heading, titles)
+- Supporting type: Outfit (emphasis or distinct look for branding)
+- Fallbacks: (All other content for better readability)
   - Mono: `Consolas, Courier New, monospace`
   - Sans: `Segoe UI, Roboto, Arial, sans-serif`
+
+### Header/Footer Brand Lockup
+
+- Use the `<BrandLockup>` component from `@localm/tutorial-framework` — never inline brand styles.
+- `localm` rendered in Share Tech Mono (lowercase), `TM` as superscript in Outfit (uppercase, weight 600), `TUTS` in Outfit Light (uppercase).
+- Sizes: `sm` (footer), `md` (header), `lg` (splash).
+- Footer layout: 3-column grid — copyright + links (left), brand lockup (center), social icons (right).
+
+### Button Styling
+
+- Primary CTA: blue→purple gradient (`--tf-color-primary` → `--tf-color-accent`), pill shape (`--tf-radius-full`), glow shadow.
+- Secondary CTA: transparent with `--tf-border-strong`, pill shape.
+- All buttons use `--tf-font-display` (Outfit) at weight 600.
 
 ## Transparency
 

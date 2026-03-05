@@ -172,6 +172,31 @@ SVG_TEMPLATES: dict[str, str] = {
         '<tspan class="sans-text" font-size="96" font-weight="300" fill="#475569" dy="44" dx="24">TUTS</tspan>'
         "</text>",
     ),
+    # ── Wordmark-only logos (730×120, transparent, tight bbox) ───────
+    "wordmark-horizontal-color.svg": _svg(
+        "0 0 730 120",
+        '<text x="0" y="60" dominant-baseline="middle">'
+        '<tspan class="tech-text" font-size="96" font-weight="700" fill="#FFFFFF">localm</tspan>'
+        '<tspan class="sans-text" font-size="40" font-weight="700" fill="#4FACFE" dy="-44" dx="3">™</tspan>'
+        '<tspan class="sans-text" font-size="96" font-weight="300" fill="#94A3B8" dy="44" dx="24">TUTS</tspan>'
+        "</text>",
+    ),
+    "wordmark-horizontal-light.svg": _svg(
+        "0 0 730 120",
+        '<text x="0" y="60" dominant-baseline="middle">'
+        '<tspan class="tech-text" font-size="96" font-weight="700" fill="#FFFFFF">localm</tspan>'
+        '<tspan class="sans-text" font-size="40" font-weight="700" fill="#FFFFFF" dy="-44" dx="3">™</tspan>'
+        '<tspan class="sans-text" font-size="96" font-weight="300" fill="#94A3B8" dy="44" dx="24">TUTS</tspan>'
+        "</text>",
+    ),
+    "wordmark-horizontal-dark.svg": _svg(
+        "0 0 730 120",
+        '<text x="0" y="60" dominant-baseline="middle">'
+        '<tspan class="tech-text" font-size="96" font-weight="700" fill="#0F172A">localm</tspan>'
+        '<tspan class="sans-text" font-size="40" font-weight="700" fill="#0F172A" dy="-44" dx="3">™</tspan>'
+        '<tspan class="sans-text" font-size="96" font-weight="300" fill="#475569" dy="44" dx="24">TUTS</tspan>'
+        "</text>",
+    ),
     # ── Stacked logos (360×440, transparent) ──────────────────────────
     "logo-stacked-color.svg": _svg(
         "0 0 360 440",
@@ -227,6 +252,10 @@ PNG_EXPORTS: dict[str, list[SizeSpec]] = {
     "logo-horizontal-color.svg": [(490, 110), (980, 220), (1960, 440)],
     "logo-horizontal-light.svg": [(490, 110), (980, 220), (1960, 440)],
     "logo-horizontal-dark.svg": [(490, 110), (980, 220), (1960, 440)],
+    # Wordmark-only logos — tight raster sizes for split icon+text layout
+    "wordmark-horizontal-color.svg": [(730, 120), (1460, 240)],
+    "wordmark-horizontal-light.svg": [(730, 120), (1460, 240)],
+    "wordmark-horizontal-dark.svg": [(730, 120), (1460, 240)],
     # Stacked logos — 1×, 2×, 3× for color; 1×, 2× for monochrome
     "logo-stacked-color.svg": [(360, 440), (720, 880), (1080, 1320)],
     "logo-stacked-light.svg": [(360, 440), (720, 880)],
