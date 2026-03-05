@@ -70,4 +70,4 @@
                    font-family="Outfit, Arial, sans-serif">™</tspan>
     </text>
   </g>
-</defs><g transform="translate(20,10)"><use xlink:href="#logo-mark-white" href="#logo-mark-white"/></g><text x="250" y="138"><tspan class="tech-text" font-size="96" font-weight="700" fill="#FFFFFF">localm</tspan><tspan class="sans-text" font-size="40" font-weight="700" fill="#FFFFFF" dy="-44" dx="3">™</tspan><tspan class="sans-text" font-size="96" font-weight="300" fill="#94A3B8" dy="44" dx="24">TUTS</tspan></text></svg>
+</defs><g transform="translate(20,10)"><use xlink:href="#logo-mark-white" href="#logo-mark-white"/></g><text x="250" y="110" dominant-baseline="middle"><tspan class="tech-text" font-size="96" font-weight="700" fill="#FFFFFF">localm</tspan><tspan class="sans-text" font-size="40" font-weight="700" fill="#FFFFFF" dy="-44" dx="3">™</tspan><tspan class="sans-text" font-size="96" font-weight="300" fill="#94A3B8" dy="44" dx="24">TUTS</tspan></text></svg>
